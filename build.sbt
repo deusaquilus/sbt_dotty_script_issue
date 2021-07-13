@@ -1,7 +1,7 @@
-lazy val `template-project` = project
+lazy val `sbt_dotty_script_issue` = project
   .in(file("."))
   .settings(
-    name := "template-project",
+    name := "sbt_dotty_script_issue",
     version := "0.1.0",
     resolvers ++= Seq(
       Resolver.mavenLocal,
